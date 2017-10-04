@@ -1,3 +1,9 @@
 page-new-shit {
   
-  }
+}
+
+.newShitContent {
+  background-color: color($colors, dark);
+  color: color($colors, danger);
+  font-weight: bold;
+}

@@ -1,22 +1,25 @@
 <ion-header>
-  <ion-navbar>
-    <button ion-button menuToggle>
+  <ion-navbar color="secondary">
+    <button ion-button menuToggle color="dark">
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Home</ion-title>
+    <ion-title>Spurs themed app</ion-title>
   </ion-navbar>
 </ion-header>
 
 
-<ion-content padding>
+<ion-content padding class="homeContent">
 
-  <h3 text-uppercase>Welcome Home and Hello World and whatnot!</h3>
+  <h2 text-center padding class="headerText" text-uppercase>Welcome to my Spurs fiesta colors themed page!</h2>
+  <hr>
+  <h4 padding>I'm using these colors to practice front-end development with <a href="https://ionicframework.com/">Ionic</a> and <a href="http://sass-lang.com/">Sass</a>.</h4>
   <p>
-    <button ion-button color="spursGreen" menuToggle>Toggle Manu</button>
+    <button ion-button color="secondary" menuToggle>Toggle Manu</button>
   </p> 
   <hr>
+  <img padding src="http://1973miami.com/wp-content/uploads/2014/04/spurs.gif" alt="">
   <div float-right>
-    <p>Some text that should automatically go to the right side of the DOM.</p>
+    <p padding class="pTag">Some text that should automatically go to the right side of the DOM.</p>
   </div>
   <br><br>
 </ion-content>

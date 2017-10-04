@@ -1,3 +1,18 @@
 page-home {
-  background: color($colors, secondary);
+
+}
+
+.homeContent {
+  background-color: color($colors, light);
+}
+
+.headerText {
+  color: color($colors, primary);
+  text-shadow: 1px 3px color($colors, dark);
+}
+
+.pTag {
+  color: color($colors, secondary);
+  border: 1px solid color($colors, primary);
+  background-color: color($colors, danger);
 }
