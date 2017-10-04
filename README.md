@@ -24,3 +24,8 @@ $ ionic cordova run ios
 
 Substitute ios for android if not on a Mac.
 
+## Project Structure
+- `src/index.html` is the main point of entry for the app.
+-  Ionic's root component and where the app will load: `<ion-app></ion-app>`.
+- 
+
