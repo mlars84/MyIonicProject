@@ -29,3 +29,25 @@ Substitute ios for android if not on a Mac.
 -  Ionic's root component and where the app will load: `<ion-app></ion-app>`.
 - 
 
+-src
+  -app
+    -app.component.ts
+    -app.html
+    -app.module.ts
+    app.scss
+    main.ts
+  -assets
+    -images
+    -icons
+  -pages
+    -page1
+      -page1.html
+      -page1.scss
+      -page1.ts
+    -page2
+    -page3
+  -theme
+    -variables.scss
+  index.html
+
+
